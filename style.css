@@ -1,0 +1,103 @@
+.my-footer {
+  background-color: #122455;
+  padding: 370px;
+}
+
+.my-col-md-6 {
+  float: left;
+  width: 50%;
+  padding: 0px;
+}
+
+.my-list-unstyled {
+  margin: 0;
+  padding: 0;
+}
+
+.my-j {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+.my-j:hover {
+  border-bottom: 1px solid white;
+}
+
+.my-social-media {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  transform: translateY(-40%);
+  display: flex;
+  align-items: center; 
+}
+
+.my-er.my-facebook, .my-er.my-insta, .my-er.my-youtube {
+  margin-left: 10px; 
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+  border-radius: 10px; /* Закруглення кутів */
+}
+
+.my-facebook {
+  background-image: url('foto/fb_gray.png');
+}
+
+.my-insta {
+  background-image: url('foto/insta_gray.png');
+}
+
+.my-youtube {
+  background-image: url('foto/youtube_gray.png');
+}
+
+.my-facebook:hover {
+  background-image: url('foto/fb.png');
+}
+
+.my-insta:hover {
+  background-image: url('foto/insta.png');
+}
+
+.my-youtube:hover {
+  background-image: url('foto/youtube.png');
+}
+
+body {
+  color: white;
+}
+
+.my-j:hover {
+  text-decoration: underline;
+}
+
+.my-list-unstyled li {
+  list-style: none;
+}
+
+.my-list-unstyled li a {
+  color: white;
+  text-decoration: none;
+}
+
+.my-list-unstyled li::before {
+  content: none;
+}
+
+.my-hunter {
+  display: inline-block;
+}
+
+.my-hunter::after {
+  content: none;
+}
+
+.my-list-unstyled li a:hover {
+  text-decoration: underline;
+}
